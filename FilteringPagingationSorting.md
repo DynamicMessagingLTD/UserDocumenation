@@ -32,4 +32,3 @@ Notes:
 * You can have spaces anywhere except *within* `{Name}` or `{Operator}` fields
 * If you need to look at the data before applying pagination (eg. get total count), use the optional paramters on `Apply` to defer pagination
 
-[Back To Index](README.md)

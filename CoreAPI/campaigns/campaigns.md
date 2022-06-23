@@ -1,4 +1,4 @@
-[Back To Index](Index.md#endpoints)
+[Back To Index](../Index.md)
 # Campaigns
 
 - [Voice](#voice)
@@ -472,4 +472,4 @@ POST https://{API URL}/api/campaign/voice/:Id
 </tbody>
 </table>
 
-[Back To Index](Index.md#endpoints)
+[Back To Index](../Index.md)
