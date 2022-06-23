@@ -4,7 +4,7 @@
 
 ## Endpoints
 
- - [Campaigns](campaigns.md)
+ - [Campaigns](campaigns/campaigns.md)
    - [Voice](campaigns.md#voice)
    - [SMS](campaigns.md#sms)
  - [Phone Number Storage](phone_number_storage.md)
