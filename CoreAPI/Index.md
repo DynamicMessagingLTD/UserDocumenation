@@ -5,8 +5,8 @@
 ## Endpoints
 
  - [Campaigns](campaigns/campaigns.md)
-   - [Voice](campaigns.md#voice)
-   - [SMS](campaigns.md#sms)
+   - [Voice](campaigns/campaigns.md#voice)
+   - [SMS](campaigns/campaigns.md#sms)
  - [Phone Number Storage](phone_number_storage.md)
 
 [Back To Index](../README.md)

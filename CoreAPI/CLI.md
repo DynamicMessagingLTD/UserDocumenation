@@ -1,4 +1,4 @@
-[Back To Index](Index.md#endpoints)
+[Back To Index](Index.md)
 
 # CLI
 
@@ -123,4 +123,4 @@ POST https://{API URL}/api/CLI/:Id
 
 #### 204 No Content
 
-[Back To Index](Index.md#endpoints)
+[Back To Index](Index.md)
