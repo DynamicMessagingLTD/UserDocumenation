@@ -1,6 +1,6 @@
 baseURL = 'https://docs.dynamicmessaging.co.uk/'
 languageCode = 'en-gb'
-title = 'Dynamic Messaging Docs'
+title = ''
 theme = 'Geekdoc'
 
 pluralizeListTitles = false

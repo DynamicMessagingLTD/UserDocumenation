@@ -1,13 +1,14 @@
 ## POST - Creates Campaign
 
 POST https://{API URL}/api/campaign/voice <br />
-POST https://{API URL}/api/campaign/voice/{ignoreInvalidPhoneNumbers}
+POST https://{API URL}/api/campaign/voice/:ignoreInvalidPhoneNumbers
+
+### Request
 
 | Parameter                 | Type    | Description                                                                                                                     |
 | ------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| ignoreInvalidPhoneNumbers | boolean | if true all invalid numbers will be ignored, if false validation will occur on the phonenumbers and any errors will be returned |
+| :ignoreInvalidPhoneNumbers | boolean | if true all invalid numbers will be ignored, if false validation will occur on the phonenumbers and any errors will be returned |
 
-### Request
 
 ```json
 {
