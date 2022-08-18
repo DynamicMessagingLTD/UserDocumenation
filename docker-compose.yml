@@ -1,6 +1,6 @@
  server:
     image: klakegg/hugo:0.101.0
     volumes:
-      - "./hugo:/src"
+      - "./UserDocs:/src"
     ports:
       - "1313:1313"
