@@ -24,6 +24,10 @@ https://oauth.net/code/java/
 | Token Provider | https://accounts.dynamicmessaging.co.uk/connect/token |
 
 
+
+#### Example Postman
+
+![Postman Login Example](/img/postman_auth.png)
 <!-- ## API
 ### Postman
 We recommend using Postman for testing the api and for getting a feel for the results etc. Just import our collection into you postman application.
