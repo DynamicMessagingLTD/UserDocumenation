@@ -1,7 +1,7 @@
 ## POST - Creates Campaign
 
-POST https://{API URL}/api/campaign/voice <br />
-POST https://{API URL}/api/campaign/voice/:ignoreInvalidPhoneNumbers
+POST https://{API URL}/api/campaigns/voice <br />
+POST https://{API URL}/api/campaigns/voice/:ignoreInvalidPhoneNumbers
 
 ### Request
 
