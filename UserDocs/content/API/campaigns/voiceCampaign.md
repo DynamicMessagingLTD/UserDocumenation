@@ -24,7 +24,7 @@ POST https://{API URL}/api/campaigns/voice/:ignoreInvalidPhoneNumbers
 		}
 	],
 	"callflow_Id":1,
-	"cli_Id":1,
+	"defaultCli_Id":1,
 	"attempts":[
 		{"interval":15, "attemptNumber":1}, 
 		{"interval":60, "attemptNumber":2},
@@ -57,7 +57,7 @@ Campaign with campaign ID
 
 ```json
 {
-    "id": 1234578
+    "id": 1234578,
 	"name":"Test Campaign",
 	"startDate": "2025-10-01",
 	"startTime":"09:00",
@@ -70,7 +70,7 @@ Campaign with campaign ID
 		}
 	],
 	"callflow_Id":1,
-	"cli_Id":1,
+	"defaultCli_Id":1,
 	"attempts":[
 		{"interval":15, "attemptNumber":1}, 
 		{"interval":60, "attemptNumber":2},
