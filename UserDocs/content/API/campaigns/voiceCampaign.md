@@ -26,9 +26,9 @@ POST https://{API URL}/api/campaigns/voice/:ignoreInvalidPhoneNumbers
 	"callflow_Id":1,
 	"defaultCli_Id":1,
 	"attempts":[
-		{"interval":15, "attemptNumber":1}, 
-		{"interval":60, "attemptNumber":2},
-		{"interval":120, "attemptNumber":3}
+		{"interval":0, "attemptNumber":1}, 
+		{"interval":15, "attemptNumber":2},
+		{"interval":30, "attemptNumber":3}
 	],
 	"answerMachineDetected":0,
 	"smsOnBusy":1,
@@ -72,9 +72,9 @@ Campaign with campaign ID
 	"callflow_Id":1,
 	"defaultCli_Id":1,
 	"attempts":[
-		{"interval":15, "attemptNumber":1}, 
-		{"interval":60, "attemptNumber":2},
-		{"interval":120, "attemptNumber":3}
+		{"interval":0, "attemptNumber":1}, 
+		{"interval":15, "attemptNumber":2},
+		{"interval":30, "attemptNumber":3}
 	],
 	"answerMachineDetected":0,
 	"smsOnBusy":1,
