@@ -57,7 +57,7 @@ Campaign with campaign ID
 
 ```json
 {
-    "id": 1234578,
+	"id": 1234578,
 	"name":"Test Campaign",
 	"startDate": "2025-10-01",
 	"startTime":"09:00",
@@ -105,7 +105,7 @@ Campaign with campaign ID
 | FinishTime*        | Finish time of the campaign                                                                                                |
 | RunoverDays        | Zero or more                                                                                                               |
 | CallFlow_Id*       | Must match a call flow ID in the system belonging to the same client. Please ask for the relevant call flow IDs.           |
-| Cli_Id*            | Must be an existing CLI ID linked to the client. Please ask for the relevant CLI IDs.                                      |
+| defaultCli_Id*            | Must be an existing CLI ID linked to the client. Please ask for the relevant CLI IDs.                                      |
 | Attempts           | How many call attempts to a single phone number within a campaign and the time interval between each attempt (in minutes). |
 | AnswerPhoneMessage | <br/><ul><li>0 = Never</li><li>1 = OnTheFirstCall</li><li>2 = OnTheLastCall</li></ul>                                      |
 | SMSOnBusy          | <br/><ul><li>0 = Never</li><li>1 = OnTheFirstCall</li><li>2 = OnTheLastCall</li></ul>                                      |
