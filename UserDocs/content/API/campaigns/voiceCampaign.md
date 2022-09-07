@@ -1,3 +1,38 @@
+---
+title: "Voice Campaigns"
+---
+
+{{< toc >}}
+
+
+## GET - Retrieves Campaigns 
+
+GET https://{API URL}/api/campaigns/voice
+
+#### 200 OK
+
+Campaign with campaign ID
+
+```json
+[
+    {
+        "id": 12345,
+        "name": "Test Campaign",
+        "startDate": "2020-12-22T15:15:00",
+        "starttime": "15:15",
+        "finishtime": "15:20",
+        "type": 1,
+        "callFlow_Id": 1234,
+        "campaignStatus": 0,
+        "callCount": 1
+    },
+    {
+		//...
+    }
+]
+```
+
+
 ## POST - Creates Campaign
 
 POST https://{API URL}/api/campaigns/voice <br />
@@ -5,8 +40,8 @@ POST https://{API URL}/api/campaigns/voice/:ignoreInvalidPhoneNumbers
 
 ### Request
 
-| Parameter                 | Type    | Description                                                                                                                     |
-| ------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Parameter                  | Type    | Description                                                                                                                     |
+| -------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | :ignoreInvalidPhoneNumbers | boolean | if true all invalid numbers will be ignored, if false validation will occur on the phonenumbers and any errors will be returned |
 
 
@@ -105,7 +140,7 @@ Campaign with campaign ID
 | FinishTime*        | Finish time of the campaign                                                                                                |
 | RunoverDays        | Zero or more                                                                                                               |
 | CallFlow_Id*       | Must match a call flow ID in the system belonging to the same client. Please ask for the relevant call flow IDs.           |
-| defaultCli_Id*            | Must be an existing CLI ID linked to the client. Please ask for the relevant CLI IDs.                                      |
+| defaultCli_Id*     | Must be an existing CLI ID linked to the client. Please ask for the relevant CLI IDs.                                      |
 | Attempts           | How many call attempts to a single phone number within a campaign and the time interval between each attempt (in minutes). |
 | AnswerPhoneMessage | <br/><ul><li>0 = Never</li><li>1 = OnTheFirstCall</li><li>2 = OnTheLastCall</li></ul>                                      |
 | SMSOnBusy          | <br/><ul><li>0 = Never</li><li>1 = OnTheFirstCall</li><li>2 = OnTheLastCall</li></ul>                                      |
@@ -139,5 +174,3 @@ Campaign with campaign ID
 | ------------- | -------------------------------------------------------------- |
 | Interval*     | The amount of time before the next attempt (in minutes)        |
 | AttemptNumber | Number of attempts (increases by a value of 1 for each attempt |
-
-

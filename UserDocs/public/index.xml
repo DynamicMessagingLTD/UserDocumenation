@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://docs.dynamicmessaging.co.uk/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 19 Aug 2022 09:06:26 +0000</lastBuildDate><atom:link href="https://docs.dynamicmessaging.co.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://docs.dynamicmessaging.co.uk/API/gettingStarted/</link>
+      <pubDate>Fri, 19 Aug 2022 09:06:26 +0000</pubDate>
+      
+      <guid>https://docs.dynamicmessaging.co.uk/API/gettingStarted/</guid>
+      <description>This is the documanation site to help you get started with the Dynamic Messaging API.
+We recommend you download our Postman collection and use that to test our API. Postman Collection</description>
+    </item>
+    
+    <item>
+      <title>Phonenumber Storage</title>
+      <link>https://docs.dynamicmessaging.co.uk/API/phone_number_storage/</link>
+      <pubDate>Fri, 19 Aug 2022 09:06:26 +0000</pubDate>
+      
+      <guid>https://docs.dynamicmessaging.co.uk/API/phone_number_storage/</guid>
+      <description>POST - Add New Number     POST https://{API URL}/api/PhoneNumberStorageItem
+Request     { &amp;#34;storageID&amp;#34;:&amp;#34;{storageID}&amp;#34;, &amp;#34;number&amp;#34;:&amp;#34;{number}&amp;#34;, &amp;#34;parameter1&amp;#34;:&amp;#34;{string}&amp;#34;, &amp;#34;parameter2&amp;#34;:&amp;#34;{string}&amp;#34;, &amp;#34;parameter3&amp;#34;:&amp;#34;{string}&amp;#34; } Response     201 Created     PUT - Update Stored Number     POST https://{API URL}/api/PhoneNumberStorageItem
+Request     { &amp;#34;storageID&amp;#34;:&amp;#34;{storageID}&amp;#34;, &amp;#34;number&amp;#34;:&amp;#34;{number}&amp;#34;, &amp;#34;parameter1&amp;#34;:&amp;#34;{string}&amp;#34;, &amp;#34;parameter2&amp;#34;:&amp;#34;{string}&amp;#34;, &amp;#34;parameter3&amp;#34;:&amp;#34;{string}&amp;#34; } Response     204 No Content     GET - Retrieve Single Stored Number     GET https://{API URL}//api/PhoneNumberStorageItem/:storageId</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://docs.dynamicmessaging.co.uk/API/authentication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.dynamicmessaging.co.uk/API/authentication/</guid>
+      <description>Authentication     Dynamic Messaging uses OAuth 2.0 Client Credentials Grant authentication for authentication. Further information on how this works and how to implement it can be found here:
+https://oauth.net/2/
+https://oauth.net/2/grant-types/client-credentials/
+https://auth0.com/docs/api-auth/tutorials/client-credentials#ask-for-a-token
+https://oauth.net/code/java/
+Authentication Settings        Field Value     Access Token Url See above (Token Provider)   Grant Type client_credentials   Client ID Ask Account Manager for details   Client Secret Ask Account Manger for details   Scope CoreAPI/SMSAPI       Service Url     Token Provider https://accounts.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://docs.dynamicmessaging.co.uk/API/CallFlows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.dynamicmessaging.co.uk/API/CallFlows/</guid>
+      <description>GET     GET https://{API URL}/api/CallFlows/
+Response     200 OK     [ { &amp;#34;id&amp;#34;: 0, &amp;#34;name&amp;#34;: &amp;#34;string&amp;#34; }, { ..... } ] </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://docs.dynamicmessaging.co.uk/API/campaigns/voiceCampaign/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.dynamicmessaging.co.uk/API/campaigns/voiceCampaign/</guid>
+      <description>GET - Retrieves Campaigns     GET https://{API URL}/api/campaigns/voice
+200 OK     Campaign with campaign ID
+[ { &amp;#34;id&amp;#34;: 12345, &amp;#34;name&amp;#34;: &amp;#34;Test Campaign&amp;#34;, &amp;#34;startDate&amp;#34;: &amp;#34;2020-12-22T15:15:00&amp;#34;, &amp;#34;starttime&amp;#34;: &amp;#34;15:15&amp;#34;, &amp;#34;finishtime&amp;#34;: &amp;#34;15:20&amp;#34;, &amp;#34;type&amp;#34;: 1, &amp;#34;callFlow_Id&amp;#34;: 1234, &amp;#34;campaignStatus&amp;#34;: 0, &amp;#34;callCount&amp;#34;: 1 }, { .... } ]    Key Description     Type Cam    POST - Creates Campaign     POST https://{API URL}/api/campaigns/voice POST https://{API URL}/api/campaigns/voice/:ignoreInvalidPhoneNumbers</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://docs.dynamicmessaging.co.uk/API/CLI/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.dynamicmessaging.co.uk/API/CLI/</guid>
+      <description>GET     GET https://{API URL}/api/CLI/
+Response     200 OK     [ { &amp;#34;id&amp;#34;: 0, &amp;#34;number&amp;#34;: &amp;#34;string&amp;#34;, &amp;#34;description&amp;#34;: &amp;#34;string&amp;#34; }, { ..... } ] </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://docs.dynamicmessaging.co.uk/API/postman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.dynamicmessaging.co.uk/API/postman/</guid>
+      <description>We recommend using Postman for testing the api and for getting a feel for the results etc. Just import our collection into you postman application.
+Further information about Postman and how to download it can be found at https://www.postman.com/
+Download Dynamic Messaging Collection     Please download our postman collection after which you can import into postman via the Import button. Dynamic Messaging Postman Collection (Right click &amp;gt; Save link As)</description>
+    </item>
+    
+    <item>
+      <title>Campaign Value Types</title>
+      <link>https://docs.dynamicmessaging.co.uk/API/campaigns/CampaingValueTypes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.dynamicmessaging.co.uk/API/campaigns/CampaingValueTypes/</guid>
+      <description>Type        Value Description     1 Voice Campaign   2 SMS Campaign    Campaign Status        Value Description     1 Sending   2 Submitted   3 Paused   4 Cancelled   5 Completed    </description>
+    </item>
+    
+  </channel>
+</rss>

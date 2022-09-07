@@ -1,0 +1,37 @@
+/* You can add custom styles here. */
+body
+{
+    font-size: 20px;
+}
+
+.gdoc-nav__list
+{
+    font-size: 15px;
+}
+
+.gdoc-header{
+    background-color: #453564;
+}
+
+.gdoc-brand__img
+{
+    width:300px;
+    height:auto;
+    margin-right: 2em;
+}
+
+.gdoc-footer__item--row
+{
+    display:none;
+}
+
+.gdoc-footer
+{
+    background-color: transparent;
+}
+
+.gdoc-footer__link,
+.gdoc-footer__link:visited
+{
+    color:#453564 !important;
+}
