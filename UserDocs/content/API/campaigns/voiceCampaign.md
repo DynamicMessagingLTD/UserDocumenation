@@ -4,11 +4,11 @@ title: "Voice Campaigns"
 
 {{< toc >}}
 
-
-## GET - Retrieves Campaigns 
+## GET - List of Campaigns 
 
 GET https://{API URL}/api/campaigns/voice
 
+### Response
 #### 200 OK
 
 Campaign with campaign ID
@@ -22,16 +22,94 @@ Campaign with campaign ID
         "starttime": "15:15",
         "finishtime": "15:20",
         "type": 1,
-        "callFlow_Id": 1234,
+        "callFlow_Id": 54321,
         "campaignStatus": 0,
-        "callCount": 1
+        "callCount": 123,
+		"cli_id": 12321
     },
     {
 		//...
     }
 ]
 ```
+## GET - Campaign By ID 
 
+GET https://{API URL}/api/campaigns/voice/:id 
+
+| Parameter | Type    | Default Value | Description |
+| --------- | ------- | ------------- | ----------- |
+| :id       | integer |               | Campaign Id |
+
+### Response
+#### 200 OK
+
+```json
+{
+    "id": 278291,
+    "name": "Test Campaign",
+    "startDate": "2022-02-12T12:00:00",
+    "starttime": "12:00",
+    "finishtime": "14:00",
+    "type": 1,
+    "callFlow_Id": 12345,
+    "campaignStatus": 5,
+    "callCount": 4004,
+    "cli_Id": 54321,
+    "attempts": [
+        {
+            "interval": 0,
+            "attemptNumber": 1
+        }
+    ],
+    "runOverDays": [
+        {
+            "date":"2022-02-12",
+            "startTime":"09:00",
+            "finishTime":"12:00"
+        }
+    ]
+    
+}
+```
+
+## GET - Phone Numbers with Call/SMS Outcomes for Campaign
+
+GET https://{API URL}/api/campaigns/voice/:id/phonenumbers <br />
+GET https://{API URL}/api/campaigns/voice/:id/phonenumbers/:pageNumber <br />
+GET https://{API URL}/api/campaigns/voice/:id/phonenumbers/:pageSize/:pageNumber
+
+| Parameter   | Type    | Default Value | Description                         |
+| ----------- | ------- | ------------- | ----------------------------------- |
+| :id         | integer |               | Campaign ID                         |
+| :pageNumber | integer | 1             |                                     |
+| :pageSize   | integer | 10            | How many results to return per page |
+
+### Response
+#### 200 OK
+
+```json
+[
+    {
+        "id": 1234,
+        "number": "07712345678",
+        "name": "Jon Smith",
+        "parameters": [],
+        "calls": [
+            {
+                "startTime": "2022-02-12T12:16:15.637",
+                "endTime": "2022-02-12T12:17:04.977",
+                "stage": 12,
+                "outcome": 5,
+                "userInput": "",
+                "price": 0.433,
+                "isTransferCall": false,
+                "attemptNumber": 1,
+                "secondsDuration": 50
+            }
+        ]
+    }
+]
+```
 
 ## POST - Creates Campaign
 
@@ -60,7 +138,8 @@ POST https://{API URL}/api/campaigns/voice/:ignoreInvalidPhoneNumbers
 	],
 	"callflow_Id":1,
 	"defaultCli_Id":1,
-	"attempts":[
+	// This is not required, if left out will default to 1 attempt
+	"attempts":[ 
 		{"interval":0, "attemptNumber":1}, 
 		{"interval":15, "attemptNumber":2},
 		{"interval":30, "attemptNumber":3}
