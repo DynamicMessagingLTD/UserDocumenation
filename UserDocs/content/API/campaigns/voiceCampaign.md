@@ -212,18 +212,19 @@ Campaign with campaign ID
 
 ### Campaign Details
 
-| Key                | Description                                                                                                                |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------- |
-| StartDate*         | Start date of the campaign                                                                                                 |
-| StartTime*         | Start time of the campaign                                                                                                 |
-| FinishTime*        | Finish time of the campaign                                                                                                |
-| RunoverDays        | Zero or more                                                                                                               |
-| CallFlow_Id*       | Must match a call flow ID in the system belonging to the same client. Please ask for the relevant call flow IDs.           |
-| defaultCli_Id*     | Must be an existing CLI ID linked to the client. Please ask for the relevant CLI IDs.                                      |
-| Attempts           | How many call attempts to a single phone number within a campaign and the time interval between each attempt (in minutes). |
-| AnswerPhoneMessage | <br/><ul><li>0 = Never</li><li>1 = OnTheFirstCall</li><li>2 = OnTheLastCall</li></ul>                                      |
-| SMSOnBusy          | <br/><ul><li>0 = Never</li><li>1 = OnTheFirstCall</li><li>2 = OnTheLastCall</li></ul>                                      |
-| PhoneNumbers*      | One or more                                                                                                                |
+| Key                | Validaton                                     | Description                                                                                                                |
+| ------------------ | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Name*              | * Required<br/> * Unique<br/> * Max 100 Chars | Name for the campaign                                                                                                      |
+| StartDate*         | * Required <br/> * A future date              | Start date of the campaign                                                                                                 |
+| StartTime*         | * Required </br>* A future time               | Start time of the campaign                                                                                                 |
+| FinishTime*        | * Required </br>* After the StartTime         | Finish time of the campaign                                                                                                |
+| RunoverDays        |                                               | Zero or more                                                                                                               |
+| CallFlow_Id*       | * Required                                    | Must match a call flow ID in the system belonging to the same client. Please ask for the relevant call flow IDs.           |
+| defaultCli_Id*     | * Required                                    | Must be an existing CLI ID linked to the client. Please ask for the relevant CLI IDs.                                      |
+| Attempts           |                                               | How many call attempts to a single phone number within a campaign and the time interval between each attempt (in minutes). |
+| AnswerPhoneMessage | * Required                                    | <br/><ul><li>0 = Never</li><li>1 = OnTheFirstCall</li><li>2 = OnTheLastCall</li></ul>                                      |
+| SMSOnBusy          | * Required                                    | <br/><ul><li>0 = Never</li><li>1 = OnTheFirstCall</li><li>2 = OnTheLastCall</li></ul>                                      |
+| PhoneNumbers*      | * Required                                    | One or more                                                                                                                |
 
 ### Phone Number
 

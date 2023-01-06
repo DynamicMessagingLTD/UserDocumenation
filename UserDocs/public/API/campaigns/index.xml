@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Campaigns on </title>
+    <link>https://docs.dynamicmessaging.co.uk/API/campaigns/</link>
+    <description>Recent content in Campaigns on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language><atom:link href="https://docs.dynamicmessaging.co.uk/API/campaigns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Value Types</title>
+      <link>https://docs.dynamicmessaging.co.uk/API/campaigns/CampaingValueTypes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.dynamicmessaging.co.uk/API/campaigns/CampaingValueTypes/</guid>
+      <description> Campaign  Type Campaign Status SMS On Busy Answer Phone Message   Call  Stage Outcome      Campaign     Type        Value Description     1 Voice Campaign   2 SMS Campaign    Campaign Status        Value Description     0 Pending   1 Sending   2 Submitted   3 Paused   4 Cancelled   5 Completed    SMS On Busy        Value Description     0 Never   1 On First Call   2 On Last Call    Answer Phone Message        Value Description     0 Never   1 On First Call   2 On Last Call    Call     Stage        Value Description     0 Non   1 Correct Callee   2 Wrong Callee   3 Call Declined   4 Correct Collee HungUp   5 Wrong Callee HungUp   7 Callee Transfer Request   8 Callee Transfer Accepted   9 Excluded   10 Answered   11 Answerphone Message Not Left   12 Answerphone Message Left   15 Wrong Callee Transfer Requested   16 Call Transferred To Call Centre   17 Transferred To Payment Line   18 Caller Requested Call Back   19 Wrong Callee Transfer Accepted   20 Call Dropped    Outcome        Value Description     1 Answered   2 Unobtainable   3 Busy   4 Answerphone Message Not Left   5 Answerphone Message Left   6 No Answer   7 Overflow   8 Out Of Time   9 Fax   10 Unknown   11 Excluded Number   12 No Connection   13 Invalid Number    </description>
+    </item>
+    
+    <item>
+      <title>Voice Campaigns</title>
+      <link>https://docs.dynamicmessaging.co.uk/API/campaigns/voiceCampaign/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.dynamicmessaging.co.uk/API/campaigns/voiceCampaign/</guid>
+      <description>GET - List of Campaigns  Response  200 OK     GET - Campaign By ID  Response  200 OK     GET - Phone Numbers with Call/SMS Outcomes for Campaign  Response  200 OK     POST - Creates Campaign  Request Response  201 Created   Campaign Details Phone Number Phone Parameter Phone Parameter Attempt        GET - List of Campaigns     GET https://{API URL}/api/campaigns/voice</description>
+    </item>
+    
+  </channel>
+</rss>

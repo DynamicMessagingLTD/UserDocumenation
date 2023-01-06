@@ -18,14 +18,16 @@
   </url><url>
     <loc>https://docs.dynamicmessaging.co.uk/API/CallFlows/</loc>
   </url><url>
-    <loc>https://docs.dynamicmessaging.co.uk/API/campaigns/voiceCampaign/</loc>
-  </url><url>
     <loc>https://docs.dynamicmessaging.co.uk/API/CLI/</loc>
   </url><url>
     <loc>https://docs.dynamicmessaging.co.uk/API/postman/</loc>
   </url><url>
-    <loc>https://docs.dynamicmessaging.co.uk/API/campaigns/CampaingValueTypes/</loc>
+    <loc>https://docs.dynamicmessaging.co.uk/API/campaigns/</loc>
   </url><url>
     <loc>https://docs.dynamicmessaging.co.uk/tags/</loc>
+  </url><url>
+    <loc>https://docs.dynamicmessaging.co.uk/API/campaigns/CampaingValueTypes/</loc>
+  </url><url>
+    <loc>https://docs.dynamicmessaging.co.uk/API/campaigns/voiceCampaign/</loc>
   </url>
 </urlset>

@@ -54,17 +54,6 @@ Response     200 OK     [ { &amp;#34;id&amp;#34;: 0, &amp;#34;name&amp;#34;: &am
     
     <item>
       <title></title>
-      <link>https://docs.dynamicmessaging.co.uk/API/campaigns/voiceCampaign/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.dynamicmessaging.co.uk/API/campaigns/voiceCampaign/</guid>
-      <description>GET - Retrieves Campaigns     GET https://{API URL}/api/campaigns/voice
-200 OK     Campaign with campaign ID
-[ { &amp;#34;id&amp;#34;: 12345, &amp;#34;name&amp;#34;: &amp;#34;Test Campaign&amp;#34;, &amp;#34;startDate&amp;#34;: &amp;#34;2020-12-22T15:15:00&amp;#34;, &amp;#34;starttime&amp;#34;: &amp;#34;15:15&amp;#34;, &amp;#34;finishtime&amp;#34;: &amp;#34;15:20&amp;#34;, &amp;#34;type&amp;#34;: 1, &amp;#34;callFlow_Id&amp;#34;: 1234, &amp;#34;campaignStatus&amp;#34;: 0, &amp;#34;callCount&amp;#34;: 1 }, { .... } ]    Key Description     Type Cam    POST - Creates Campaign     POST https://{API URL}/api/campaigns/voice POST https://{API URL}/api/campaigns/voice/:ignoreInvalidPhoneNumbers</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://docs.dynamicmessaging.co.uk/API/CLI/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -82,15 +71,6 @@ Response     200 OK     [ { &amp;#34;id&amp;#34;: 0, &amp;#34;number&amp;#34;: &
       <description>We recommend using Postman for testing the api and for getting a feel for the results etc. Just import our collection into you postman application.
 Further information about Postman and how to download it can be found at https://www.postman.com/
 Download Dynamic Messaging Collection     Please download our postman collection after which you can import into postman via the Import button. Dynamic Messaging Postman Collection (Right click &amp;gt; Save link As)</description>
-    </item>
-    
-    <item>
-      <title>Campaign Value Types</title>
-      <link>https://docs.dynamicmessaging.co.uk/API/campaigns/CampaingValueTypes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.dynamicmessaging.co.uk/API/campaigns/CampaingValueTypes/</guid>
-      <description>Type        Value Description     1 Voice Campaign   2 SMS Campaign    Campaign Status        Value Description     1 Sending   2 Submitted   3 Paused   4 Cancelled   5 Completed    </description>
     </item>
     
   </channel>
