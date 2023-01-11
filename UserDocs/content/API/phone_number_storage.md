@@ -74,7 +74,51 @@ GET https://{API URL}//api/PhoneNumberStorageItem/:storageId
 }
 ```
 
-#### 404 Not Found
+## GET - Retrieves A Pagintated List of Stored Numbers
+
+GET https://{API URL}//api/PhoneNumberStorageItem/:pageSize/:pageIndex
+
+### Request
+
+| Parameter | Type  | Description |
+| -------- | -------- | -------- |
+| :pageSize    | int     | Number of records to return on each page   |
+| :pageIndex    | int     | The page index   |
+
+### Response
+
+#### 200 OK
+
+```json
+{
+    "pageIndex": 1,
+    "totalPages": 20,
+    "totalRecords": 200000,
+    "items": [
+        {
+            "storageID":"{storageID}",
+            "number":"{number}",
+            "parameter1":"{string}",
+            "parameter2":"{string}",
+            "parameter3":"{string}"
+        },
+        {
+            ....
+        }
+    ]
+}
+
+```
+
+#### 400 Bad Request
+
+```json
+{
+    "pageSize": [
+        "can not exceed 10000 records"
+    ]
+}
+```
 
 ## DELETE - Deletes Stored Number
 

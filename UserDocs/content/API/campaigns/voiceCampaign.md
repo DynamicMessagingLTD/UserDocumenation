@@ -214,7 +214,7 @@ Campaign with campaign ID
 
 | Key                | Validaton                                     | Description                                                                                                                |
 | ------------------ | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Name*              | * Required<br/> * Unique<br/> * Max 100 Chars | Name for the campaign                                                                                                      |
+| Name*              | * Required <br/> * Unique<br/> * Max 100 Chars | Name for the campaign                                                                                                      |
 | StartDate*         | * Required <br/> * A future date              | Start date of the campaign                                                                                                 |
 | StartTime*         | * Required </br>* A future time               | Start time of the campaign                                                                                                 |
 | FinishTime*        | * Required </br>* After the StartTime         | Finish time of the campaign                                                                                                |
