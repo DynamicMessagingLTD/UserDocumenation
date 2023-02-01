@@ -16,7 +16,13 @@ POST https://{API URL}/api/PhoneNumberStorageItem
     "number":"{number}",
     "parameter1":"{string}",
     "parameter2":"{string}",
-    "parameter3":"{string}"
+    "parameter3":"{string}",
+    "parameter4":"{string}",
+    "parameter5":"{string}",
+    "parameter6":"{string}",
+    "parameter7":"{string}",
+    "parameter8":"{string}",
+    "parameter9":"{string}"
 }
 ```
 
@@ -39,7 +45,13 @@ POST https://{API URL}/api/PhoneNumberStorageItem
     "number":"{number}",
     "parameter1":"{string}",
     "parameter2":"{string}",
-    "parameter3":"{string}"
+    "parameter3":"{string}",
+    "parameter4":"{string}",
+    "parameter5":"{string}",
+    "parameter6":"{string}",
+    "parameter7":"{string}",
+    "parameter8":"{string}",
+    "parameter9":"{string}"
 }
 ```
 
@@ -70,7 +82,13 @@ GET https://{API URL}//api/PhoneNumberStorageItem/:storageId
     "number":"{number}",
     "parameter1":"{string}",
     "parameter2":"{string}",
-    "parameter3":"{string}"
+    "parameter3":"{string}",
+    "parameter4":"{string}",
+    "parameter5":"{string}",
+    "parameter6":"{string}",
+    "parameter7":"{string}",
+    "parameter8":"{string}",
+    "parameter9":"{string}"
 }
 ```
 
@@ -100,7 +118,13 @@ GET https://{API URL}//api/PhoneNumberStorageItem/:pageSize/:pageIndex
             "number":"{number}",
             "parameter1":"{string}",
             "parameter2":"{string}",
-            "parameter3":"{string}"
+            "parameter3":"{string}",
+            "parameter4":"{string}",
+            "parameter5":"{string}",
+            "parameter6":"{string}",
+            "parameter7":"{string}",
+            "parameter8":"{string}",
+            "parameter9":"{string}"
         },
         {
             ....
