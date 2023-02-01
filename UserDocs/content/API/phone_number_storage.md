@@ -14,6 +14,8 @@ POST https://{API URL}/api/PhoneNumberStorageItem
 {
     "storageID":"{storageID}",
     "number":"{number}",
+    // parameter 1 - 9 are not required and can be left out if not needed, 
+    // additionally you can just keep the ones that you want to use if needed
     "parameter1":"{string}",
     "parameter2":"{string}",
     "parameter3":"{string}",
