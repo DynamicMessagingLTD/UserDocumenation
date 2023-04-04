@@ -32,6 +32,44 @@ Campaign with campaign ID
     }
 ]
 ```
+
+## GET - List of Campaigns with Pagination
+
+GET https://{API URL}/api/campaigns/voice/p
+
+** Pagination, Filtering and Sorting is supported see [Pagination, Filtering & Sorting](../../pagination_filtering_sorting) for more information
+
+### Response
+#### 200 OK
+
+Campaign with campaign ID
+
+```json
+
+{
+    "pageIndex": 1,
+    "totalPages": 7,
+    "totalRecords": 65,
+    "items": [
+         {
+	   "id": 12345,
+	   "name": "Test Campaign",
+	   "startDate": "2020-12-22T15:15:00",
+	   "starttime": "15:15",
+	   "finishtime": "15:20",
+	   "type": 1,
+	   "callFlow_Id": 54321,
+	   "campaignStatus": 0,
+	   "callCount": 123,
+	   "cli_id": 12321
+	  },
+	  {
+		//...
+	  }
+	]
+}
+```
+
 ## GET - Campaign By ID 
 
 GET https://{API URL}/api/campaigns/voice/:id 
