@@ -144,7 +144,17 @@ GET https://{API URL}/api/campaigns/voice/:id/phonenumbers/:pageSize/:pageNumber
                 "attemptNumber": 1,
                 "secondsDuration": 50
             }
-        ]
+        ],
+        "smss": [
+            {
+                "status": 1,
+                "price": 0.056,
+                "smsCount": 1,
+                "dateReceived": "2023-01-11T17:36:16.507",
+                "senderNumber": "ThisSender",
+                "message": "Hello world!"
+            }
+        ],
     }
 ]
 ```
