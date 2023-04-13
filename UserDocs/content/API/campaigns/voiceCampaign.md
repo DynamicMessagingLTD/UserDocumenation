@@ -151,8 +151,8 @@ GET https://{API URL}/api/campaigns/voice/:id/phonenumbers/:pageSize/:pageNumber
                 "price": 0.056,
                 "smsCount": 1,
                 "dateReceived": "2023-01-11T17:36:16.507",
-                "senderNumber": "ThisSender",
-                "message": "Hello world!"
+                "senderNumber": "ThisSender", //may display as null for some clients
+                "message": "Hello world!" //may display as null for some clients
             }
         ],
     }
