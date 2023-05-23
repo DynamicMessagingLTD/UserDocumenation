@@ -2,6 +2,10 @@
 title: "Pagination, Filtering & Sorting"
 ---
 
+```
+❗This API is for marketing messaging only
+```
+
 {{< toc >}}
 
 Some Endpoints allow you to paginate, filter and sort. Here is a brief explanation of how to use this functionality

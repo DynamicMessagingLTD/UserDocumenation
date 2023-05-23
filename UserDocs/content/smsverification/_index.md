@@ -5,6 +5,10 @@ title: "SMS Verification"
 {{< toc-tree >}}
 
 
+```
+❗This API is for OTP messaging only
+```
+
 # Postman collection
 
 [Postman collection](/files/dynamicmessaging.smsverification.api.postman_collection.json)

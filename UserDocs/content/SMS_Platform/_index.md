@@ -4,6 +4,11 @@ title: "SMS Platform"
 
 ## URLs
 
+```
+❗This API is for marketing messaging only
+```
+
+
 | Service        | Url                                                   |
 | -------------- | ----------------------------------------------------- |
 | Live  |  <https://api.sms.dynamicmessaging.co.uk> |

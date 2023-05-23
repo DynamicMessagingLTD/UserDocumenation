@@ -1,5 +1,9 @@
 # SMS Messages
 
+```
+❗This API is for marketing messaging only
+```
+
 ## GET 
 
 GET https://{API URL}/api/SMSMessages

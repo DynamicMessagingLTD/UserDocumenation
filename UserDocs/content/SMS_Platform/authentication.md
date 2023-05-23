@@ -1,3 +1,7 @@
+```
+❗This API is for marketing messaging only
+```
+
 ## Authentication
 Dynamic Messaging uses OAuth 2.0 Client Credentials Grant authentication for authentication. Further information on how this works and how to implement it can be found here:
 
