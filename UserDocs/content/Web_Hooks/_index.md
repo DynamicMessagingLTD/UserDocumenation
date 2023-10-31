@@ -17,7 +17,7 @@
         "startTime":"2023-06-27T03:04:01.374Z",
         "endTime":"2023-06-27T03:04:01.374Z",
         "userInput":"string",
-        "campaignId":""
+        "campaignId":"",
         "phoneNumber":""
     }
 }
