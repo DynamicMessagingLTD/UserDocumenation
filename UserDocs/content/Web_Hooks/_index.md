@@ -6,7 +6,7 @@
 
 ## Voice Call Json Example
 
-```=json
+```json
 
 {
     "webHookType": 0,
@@ -31,7 +31,7 @@
 
 ## SMS Call Json Example
 
-```=json
+```json
 
 {
     "webHookType": 1,
