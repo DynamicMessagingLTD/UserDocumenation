@@ -6,7 +6,7 @@
 
 ## Voice Call Json Example
 
-```=json
+```json
 
 {
     "webHookType": 0,
@@ -17,7 +17,7 @@
         "startTime":"2023-06-27T03:04:01.374Z",
         "endTime":"2023-06-27T03:04:01.374Z",
         "userInput":"string",
-        "campaignId":""
+        "campaignId":"",
         "phoneNumber":""
     }
 }
@@ -31,7 +31,7 @@
 
 ## SMS Call Json Example
 
-```=json
+```json
 
 {
     "webHookType": 1,

@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "cb21b75f-c991-45f4-b9e1-8973779f3f47",
+		"_postman_id": "4ebbbed2-7c02-4e68-99d2-8f84d077caf3",
 		"name": "DynamicMessaging.SMSVerification.API",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "17044717"
@@ -241,44 +241,7 @@
 		}
 	],
 	"auth": {
-		"type": "oauth2",
-		"oauth2": [
-			{
-				"key": "clientSecret",
-				"value": "",
-				"type": "string"
-			},
-			{
-				"key": "clientId",
-				"value": "",
-				"type": "string"
-			},
-			{
-				"key": "tokenName",
-				"value": "DMAuth",
-				"type": "string"
-			},
-			{
-				"key": "scope",
-				"value": "CoreAPI",
-				"type": "string"
-			},
-			{
-				"key": "accessTokenUrl",
-				"value": "https://accounts.dynamicmessaging.co.uk/connect/token",
-				"type": "string"
-			},
-			{
-				"key": "grant_type",
-				"value": "client_credentials",
-				"type": "string"
-			},
-			{
-				"key": "addTokenTo",
-				"value": "header",
-				"type": "string"
-			}
-		]
+		"type": "bearer"
 	},
 	"event": [
 		{

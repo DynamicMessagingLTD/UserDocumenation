@@ -3,37 +3,18 @@
 ```
 
 ## Authentication
-Dynamic Messaging uses OAuth 2.0 Client Credentials Grant authentication for authentication. Further information on how this works and how to implement it can be found here:
+Dynamic Messaging uses JWT Bearer Tokens for Authentication. These are referred to as API keys in the Voice Platform website, and you can find them in the API Keys section of the Client website.
 
-https://oauth.net/2/
+You can create a new API Key if you have none already, and copy the Token to use below.
 
-https://oauth.net/2/grant-types/client-credentials/
+![Bearer token section](/img/bearertoken.png)
 
-https://auth0.com/docs/api-auth/tutorials/client-credentials#ask-for-a-token
+You can also pass this using a header or on the querystring directly. In this case the header or querystring parameter name should be "api-key".
 
-https://oauth.net/code/java/
+![Header section](/img/headerapikey.png)
 
-### Authentication Settings
-
-| Field            | Value                           |
-| ---------------- | ------------------------------- |
-| Access Token Url | See above (Token Provider)      |
-| Grant Type       | client_credentials              |
-| Client ID        | Ask Account Manager for details |
-| Client Secret    | Ask Account Manger for details  |
-| Scope            | SMSAPI                  |
-
-| Service        | Url                                                   |
-| -------------- | ----------------------------------------------------- |
-| Token Provider |  https://accounts2.dynamicmessaging.co.uk/realms/DynamicMessaging/protocol/openid-connect/token |
-
-
-
-#### Example Postman
-
-![Postman Login Example](/img/postman_auth.png)
-<!-- ## API
 ### Postman
+
 We recommend using Postman for testing the api and for getting a feel for the results etc. Just import our collection into you postman application.
 
-Further information about Postman and how to download it can be found at https://www.postman.com/ -->
+Further information about Postman and how to download it can be found at https://www.postman.com/
