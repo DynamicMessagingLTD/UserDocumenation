@@ -30,7 +30,8 @@ and create the following variables
 ## Setting up the authentication
 
 ### Authentication
-Dynamic Messaging uses JWT Bearer Tokens for Authentication. These are referred to as API keys in the Voice Platform website, and you can find them in the API Keys section of the Client website.
+
+Dynamic Messaging uses Bearer Tokens for Authentication. These are referred to as API keys in the Voice Platform website, and you can find them in the API Keys section of the Client website.
 
 You can create a new API Key if you have none already, and copy the Token to use below.
 
